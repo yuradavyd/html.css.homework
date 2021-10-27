@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tinos', serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.header {
+  height:100vh;
+  background: url("../image/bg.png") no-repeat center/cover;
+
+}
+.header__top {
+  padding-top: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.nav__item img {
+  width: 20px;
+}
+.nav {
+  display: flex;
+  column-gap: 23px;
+}
+.nav__item a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffff;
+  text-decoration: none;
+}
+.nav__item a:hover {
+  color: #D67E35;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  column-gap: 35px;
+}
+.header__phone {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 155px;
+  border-left: 2px solid #fff;
+  padding-left:15px;
+}
+.header__phone a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+.header__btn {
+  height: 45px;
+  padding: 0 19px;
+  background:#ff7400;
+  border: none;
+  cursor: pointer;
+}
+.header__button:visited {
+  color:#ffffff;
+}
+.header__button {
+  text-decoration: none;
+}
+.header__text{
+  margin-top: 205px;
+  max-width: 500px;
+}
+.header__text h2 {
+  font-weight: normal;
+  font-size:50px;
+  line-height: 58px;
+  color: #D67E35;
+  margin-left: 24px;
+}
+.header__text h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  color: #D67E35;
+}
+.header__text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.header__text p::before,
+.header__text p::after {
+  content:"";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background:#ffffff;
+  margin: 5px 5px;
+}
+.header__btn a {
+  color: #ffffff;
+}
+.header__text .header__btn {
+  margin-top: 35px;
+}
+.header__text .header__button:hover {
+  color: black;
+}
+.header__main_btn {
+  display: flex;
+  justify-content: center;
+}
+.nav__btn_mobile {
+  display: none;
+  width: 30px;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.nav__btn_mobile div {
+  height: 3px;
+  background:#ff7400;
+  border-radius: 50px;
+}
+.header__cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -400px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 35px 35px;
+  background:#ffffff;
+  box-sizing: border-box;
+  width: 350px;
+  height: 330px;
+  position: relative;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.cards {
+  width: 110px;
+  height: 100px;
+}
+.lie {
+  line-height: 30px;
+  font-size: 26px;
+  color: #2C2C2C;
+}
+.card span {
+  color: #BC9060;
+  line-height: 30px;
+  font-size: 26px;
+}
+.card_text {
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #656363;
+}

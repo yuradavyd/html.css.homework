@@ -1,0 +1,47 @@
+@media screen and (max-width: 400px){
+    .header__menu {
+        display: none;
+    }
+    .header__logo img {
+        width: 50px;
+    }
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+    .header__top {
+        padding-top: 20px;
+    }
+    .nav__btn_mobile {
+        display: flex;
+    }
+    .header__text h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header__text h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .header__text p::before,
+    .header__text p::after {
+        display: none;
+    }
+    .header__text {
+        text-align: center;
+    }
+    .header__cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        position:relative;
+        bottom: -700px;
+    }
+    .header__btn a {
+        display: none;
+    }
+    .header__btn:after{
+        content: 'Меню';
+        color: #d9d9d9;
+    }
+}
