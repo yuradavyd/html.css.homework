@@ -89,7 +89,7 @@ table {
   font-size: 18px;
   line-height: 25px;
   color: #ffffff;
-  width: 155px;
+  width: 171px;
   border-left: 2px solid #fff;
   padding-left:15px;
 }
@@ -218,4 +218,85 @@ table {
   line-height: 30px;
   text-align: center;
   color: #656363;
+}
+.story {
+  margin-top: 390px;
+}
+.story__title span {
+  color: #BC9060;
+}
+.story__title {
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+}
+.story_numbers {
+  margin-top: 50px;
+  column-gap: 45px;
+}
+.story__text {
+  margin-top: 22px;
+  color: #656363;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.main__numb {
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  color: #BC9060;
+}
+.sub__numb {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.story__images {
+  position: relative;
+}
+.story__images img {
+  position: absolute;
+}
+.img1 {
+  z-index: 3;
+  left: -270px;
+}
+.img2 {
+  z-index: 1;
+  left: -50px;
+  top: -40px;
+}
+.img3 {
+  z-index: 3;
+  bottom: -90px;
+  left: 60px;
+}
+.imgpink {
+  left: 30px;
+}
+.pizza__footer {
+  background: url("../image/pizza.png") no-repeat center/cover;
+  margin-top: 182px;
+  height: 357px;
+  display: flex;
+  align-items: center;
+}
+.pizza__title {
+  font-size: 52px;
+  line-height: 60px;
+  color: #D67E34;
+}
+.pizza__sub {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.pizza__text {
+  width: 600px;
+  flex-direction: column;
+  text-align: center;
 }
