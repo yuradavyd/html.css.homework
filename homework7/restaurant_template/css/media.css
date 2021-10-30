@@ -9,6 +9,9 @@
         max-width: 340px;
         padding: 0 10px;
     }
+    .card {
+        left: -12px;
+    }
     .header__top {
         padding-top: 20px;
     }
@@ -34,8 +37,9 @@
         display: flex;
         flex-direction: column;
         row-gap: 15px;
+        justify-content: center;
         position:relative;
-        bottom: -700px;
+        bottom: -130px;
     }
     .header__btn a {
         display: none;
@@ -44,4 +48,76 @@
         content: 'Меню';
         color: #d9d9d9;
     }
+
+    .pizza__title {
+        font-size: 30px;
+        line-height: 40px;
+        color: #D67E34;
+    }
+    .pizza__text {
+        width: 380px;
+        text-align: center;
+    }
+    .pizza__col {
+        flex-direction: column;
+    }
+    .story {
+        margin-top: 1030px;
+    }
+    .header__cards {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .story__text {
+        width: 90%;
+    }
+    .story__txt {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .story__img__wrapper {
+        margin-top: 80px;
+        position: relative;
+        width: 250px;
+        height: 250px;
+
+    }
+    .img1 {
+        width: 125px;
+        height: 155px;
+        left: -90px;
+    }
+    .img2 {
+        width: 130px;
+        height: 220px;
+        left: -50px;
+        top: -40px;
+    }
+    .img3 {
+        width: 135px;
+        height: 155px;
+        left: 30px;
+        bottom: 80px;
+    }
+    .imgpink {
+        width:115px;
+        height:85px;
+        left: -8px;
+    }
+    .omg {
+        flex-direction: column;
+        align-items: center;
+    }
+    .story__txt{
+        width: 90%;
+    }
+    .pizza__footer {
+        margin-top: 0;
+    }
+    .story__images {
+        width: 230px;
+    }
 }
+
