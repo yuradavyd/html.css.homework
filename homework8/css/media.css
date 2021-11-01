@@ -1,0 +1,29 @@
+@media screen and (max-width: 400px){
+    .wrapper_grid img {
+        width: 95%;
+    }
+    .hot_cold img {
+        width: 180%;
+    }
+    .list {
+        width: 300px;
+        line-height: 60px;
+        font-size: 11px;
+    }
+    .wrapper_list {
+        margin-top: -10px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    }
+    .frigel {
+        width: 300px;
+    }
+    .arrows .arr {
+        width: 70px;
+    }
+    .wrap_frig {
+        width: 300px;
+    }
+    .group-item {
+        width: 380px;
+    }
+}
