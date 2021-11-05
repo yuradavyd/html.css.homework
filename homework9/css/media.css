@@ -1,0 +1,118 @@
+@media screen and (max-width: 320px){
+    .whatsapp_tel {
+        flex-direction: column-reverse;
+    }
+    .time_avt {
+        display: none;
+    }
+    .map_avt {
+        display: none;
+    }
+    .avt_zap {
+        justify-content: space-between;
+    }
+    .tel_avt {
+        width: 80%;
+    }
+    .whatsapp_avt{
+        width: 80%;
+    }
+    .logo_nav {
+        display: none;
+    }
+    .media_none {
+        display: none;
+    }
+    .media_yes {
+        display: flex;
+    }
+    .menu_cat {
+        height: 47px;
+    }
+    .input-group>.form-control, .input-group>.form-select.footer_input {
+        width: 113px;
+    }
+    .ui {
+        justify-content: center;
+    }
+    .search {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .welcome {
+        flex-direction: column;
+    }
+    .mech_img {
+        width: 130px;
+        height: 110px;
+    }
+    .mech_text h2{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .mech_text p{
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 0;
+    }
+    .mech_price_wrap {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+    .mech_price {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .mech_oldprice {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .mech_text {
+        margin-top:-45px;
+        width: 160px;
+    }
+    .d-block {
+        height:230px;
+    }
+    .act {
+        width: 320px;
+    }
+    .first_half {
+        width: 100px;
+    }
+    .trend {
+        width: 320px;
+    }
+    .wrap_grid {
+        grid-template-columns: repeat(auto-fit, minmax(316px, 1fr));
+    }
+    .grid_img {
+        width: 140px;
+        height: 120px;
+    }
+    .card_title {
+        font-size: 10px;
+    }
+    .wrap_grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .cart_wrap {
+        width: 150px;
+    }
+    .grid_card {
+        width: 150px;
+    }
+    .month {
+        margin-top: 30px;
+    }
+    .month::before,
+    .month::after  {
+        display: none;
+    }
+    .actions {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        column-gap: 20px;
+    }
+}
